@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		099ED23C27C0130A007EE11D /* LocationsListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099ED23B27C0130A007EE11D /* LocationsListView.swift */; };
+		099ED23E27C04588007EE11D /* LocationPerviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 099ED23D27C04588007EE11D /* LocationPerviewView.swift */; };
+		09E427BA27C0B68C00620493 /* AnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09E427B927C0B68C00620493 /* AnnotationView.swift */; };
 		09FF021927BEB02F008AF3FA /* MapsAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FF021827BEB02F008AF3FA /* MapsAppApp.swift */; };
 		09FF021B27BEB02F008AF3FA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 09FF021A27BEB02F008AF3FA /* ContentView.swift */; };
 		09FF022027BEB031008AF3FA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 09FF021F27BEB031008AF3FA /* Preview Assets.xcassets */; };
@@ -18,6 +21,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		099ED23B27C0130A007EE11D /* LocationsListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationsListView.swift; sourceTree = "<group>"; };
+		099ED23D27C04588007EE11D /* LocationPerviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationPerviewView.swift; sourceTree = "<group>"; };
+		09E427B927C0B68C00620493 /* AnnotationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnnotationView.swift; sourceTree = "<group>"; };
 		09FF021527BEB02F008AF3FA /* MapsApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MapsApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		09FF021827BEB02F008AF3FA /* MapsAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapsAppApp.swift; sourceTree = "<group>"; };
 		09FF021A27BEB02F008AF3FA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -91,6 +97,9 @@
 			isa = PBXGroup;
 			children = (
 				09FF023127BED0CB008AF3FA /* LocationView.swift */,
+				099ED23B27C0130A007EE11D /* LocationsListView.swift */,
+				099ED23D27C04588007EE11D /* LocationPerviewView.swift */,
+				09E427B927C0B68C00620493 /* AnnotationView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -182,6 +191,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				09FF023027BEC2AD008AF3FA /* LocationsDataService.swift in Sources */,
+				09E427BA27C0B68C00620493 /* AnnotationView.swift in Sources */,
+				099ED23C27C0130A007EE11D /* LocationsListView.swift in Sources */,
+				099ED23E27C04588007EE11D /* LocationPerviewView.swift in Sources */,
 				09FF023427BED4E3008AF3FA /* LocationsViewModel.swift in Sources */,
 				09FF021B27BEB02F008AF3FA /* ContentView.swift in Sources */,
 				09FF023227BED0CB008AF3FA /* LocationView.swift in Sources */,
