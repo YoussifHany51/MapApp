@@ -12,16 +12,96 @@ class LocationsDataService {
     
     static let locations: [Location] = [
         
+//        Location(
+//            name: "26th july axis road",
+//            cityName: "6 October city",
+//            coordinates: CLLocationCoordinate2D(latitude:30.00908 , longitude:30.98528),//done
+//            description: "Pothole in the middle of the road.",
+//            imageName: [
+//             "pothole1"
+//            ]
+//        ),
+//
+//        Location(
+//            name: "Waslet Dahshur Road",
+//            cityName: "Sheikh Zayed City",
+//            coordinates: CLLocationCoordinate2D(latitude:30.01520 , longitude:30.97636),//done
+//            description: "Pothole in the rigth side of the road.",
+//            imageName: [
+//             "pothole2"
+//            ]
+//        ),
+//
+//        Location(
+//            name: "Gamal Abd Al Nasser Street",
+//            cityName: "6 October city",
+//            coordinates: CLLocationCoordinate2D(latitude:30.00620 , longitude:30.96839),//done
+//            description: "Pothole in the middle of the road.",
+//            imageName: [
+//             "pothole3"
+//            ]
+//        ),
+//
+//        Location(
+//            name: "Al Wahat Road",
+//            cityName: "6 October city",
+//            coordinates: CLLocationCoordinate2D(latitude:29.97262 , longitude:31.00669),//done
+//            description: "Pothole in the left side of the road.",
+//            imageName: [
+//             "pothole4"
+//            ]
+//        ),
+//
+//        Location(
+//            name: "26th july axis Rd",
+//            cityName: "6 October city",
+//            coordinates: CLLocationCoordinate2D(latitude:30.00866 , longitude:30.99187),//done
+//            description: "Cracks in the left side of the road.",
+//            imageName: [
+//             "crack1"
+//            ]
+//        ),
+//
+//        Location(
+//            name: "Waslet Dahshur Rd",
+//            cityName: "Sheikh Zayed City",
+//            coordinates: CLLocationCoordinate2D(latitude:30.02976 , longitude:30.96388),//done
+//            description: "Cracks in the rigth side of the road.",
+//            imageName: [
+//             "crack2"
+//            ]
+//        ),
+//
+//        Location(
+//            name: "Gamal Abd Al Nasser St",
+//            cityName: "6 October city",
+//            coordinates: CLLocationCoordinate2D(latitude:30.00379 , longitude:30.96491),//done
+//            description: "Cracks in the middle of the road.",
+//            imageName: [
+//             "crack3"
+//            ]
+//        ),
+//
+//        Location(
+//            name: "Al Wahat Rd",
+//            cityName: "6 October city",
+//            coordinates: CLLocationCoordinate2D(latitude:29.96919 , longitude:31.01779),
+//            description: "Cracks in the right side of the road.",
+//            imageName: [
+//             "crack4"
+//            ]
+//        ),
+        
         Location(
             name: "Pyramids",
             cityName: "Giza",
             coordinates: CLLocationCoordinate2D(latitude:29.9773 , longitude:31.1325),
-            description: "pyramid, in architecture, a monumental structure constructed of or faced with stone or brick and having a rectangular base and four sloping triangular (or sometimes trapezoidal) sides meeting at an apex.",
+            description: "Pyramid, in architecture, a monumental structure constructed of or faced with stone or brick and having a rectangular base and four sloping triangular (or sometimes trapezoidal) sides meeting at an apex.",
             imageName: [
              "pyramids"
             ]
         ),
-        
+
         Location(
             name:"Sphinx",
             cityName: "Giza",
@@ -31,7 +111,7 @@ class LocationsDataService {
             "sphinx"
             ]
         ),
-        
+
         Location(
             name:"The Egyptian Museum",
             cityName: "Cairo",
@@ -41,7 +121,7 @@ class LocationsDataService {
             "egymuseum"
             ]
         ),
-        
+
         Location(
             name:"Abu Simbel",
             cityName: "Aswan",
@@ -51,17 +131,17 @@ class LocationsDataService {
             "abuSimbel"
             ]
         ),
-        
+
         Location(
             name:"Mortuary Temple of Hatshepsut",
             cityName: "Luxor",
             coordinates: CLLocationCoordinate2D(latitude: 25.7382, longitude: 32.6066),
             description: "The Temple of Hatshepsut (Egyptian: Ḏsr-ḏsrw meaning Holy of Holies) is a mortuary temple built during the reign of Pharaoh Hatshepsut of the Eighteenth Dynasty of Egypt. Located opposite the city of Luxor, it is considered to be a masterpiece of ancient architecture.",
             imageName: [
-            "hatshepsut"
+            "hatshpsut"
             ]
         ),
-        
+
         Location(
             name: "Colosseum",
             cityName: "Rome",
